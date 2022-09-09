@@ -138,4 +138,4 @@ $databases['default']['default'] = array (
   'driver' => 'sqlite',
   'autoload' => 'core/modules/sqlite/src/Driver/Database/sqlite/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_v14OrtoGuzELDSPb6E8SPH87HdbD3WFiP9gI6HWYbPZjFI82LUog-jYX8BwvqzpgOq_iR5iXsw/sync';
+$settings['config_sync_directory'] = '../config/sync';
