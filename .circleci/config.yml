@@ -30,6 +30,9 @@ jobs:
       - run: sudo docker-php-ext-install zip
       - run: sudo apt install sqlite3
 
+      # Replace mysql module with sqlite
+      - run: sed 's/mysql/sqlite/g' config/sync/core.extension.yml
+
       # Download and cache dependencies
       - restore_cache:
           keys:
