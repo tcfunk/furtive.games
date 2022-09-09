@@ -2,3 +2,9 @@ name: fg
 recipe: drupal10
 config:
   webroot: web
+
+services:
+  appserver:
+    extras:
+    - apt-get update -y
+    - apt-get install sqlite3

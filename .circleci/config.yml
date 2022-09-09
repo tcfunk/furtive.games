@@ -39,9 +39,10 @@ jobs:
             - v1-dependencies-
 
       - run: composer install -n --prefer-dist
+      - run: cp logfix.php vendor/consolidation/log/src/ConsoleLogLevel.php
 
       - save_cache:
-          key: v1-dependencies-{{ checksum "composer.json" }}
+          key: v1-dependencies-{{ checksum "composer.lock" }}
           paths:
             - ./vendor
 #      - restore_cache:
