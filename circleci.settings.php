@@ -139,3 +139,5 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/sqlite/src/Driver/Database/sqlite/',
 );
 $settings['config_sync_directory'] = '../config/sync';
+
+$config['core.extension']['module'][]= 'sqlite';
