@@ -2,7 +2,10 @@ uuid: aa9734db-ad54-45c5-8353-253bd260834e
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.full_html
   module:
+    - filter
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -12,3 +15,4 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format full_html'
