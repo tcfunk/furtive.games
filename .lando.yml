@@ -8,3 +8,8 @@ services:
     extras:
     - apt-get update -y
     - apt-get install sqlite3
+
+tooling:
+  phpunit:
+    service: appserver
+    cmd: vendor/bin/phpunit

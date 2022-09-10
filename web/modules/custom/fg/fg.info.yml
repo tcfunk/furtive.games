@@ -1,0 +1,6 @@
+name: Furtive Games
+description: Custom stuff for furtive.games
+package: Custom
+
+type: module
+core_version_requirement: ^10
