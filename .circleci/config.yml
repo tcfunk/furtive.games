@@ -45,7 +45,7 @@ jobs:
 
       - run:
           name: "Run web server"
-          command: php bin/console server:run
+          command: php -S localhost:8000 -t ~/project/web
           background: true
 
       - run:
