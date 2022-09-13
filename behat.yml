@@ -19,4 +19,4 @@ default:
 ci:
   extensions:
     Drupal\MinkExtension:
-      base_url: http://localhost:9999
+      base_url: http://localhost:8000
