@@ -13,3 +13,6 @@ tooling:
   phpunit:
     service: appserver
     cmd: vendor/bin/phpunit
+  behat:
+    service: appserver
+    cmd: vendor/bin/behat
