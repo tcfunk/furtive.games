@@ -16,3 +16,7 @@ default:
       blackbox: ~
       region_map:
         header: "#header"
+ci:
+  extensions:
+    Drupal\MinkExtension:
+      base_url: http://localhost
