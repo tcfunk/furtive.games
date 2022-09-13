@@ -62,5 +62,8 @@ jobs:
       - run: cp circleci.settings.php web/sites/default/settings.php
       - run: ./vendor/bin/drush si --existing-config --yes
 
+      # start php webserver
+      - run: php -S localhost:9999 -t ~/project/web
+
       # run tests with behat
       - run: ./vendor/bin/behat --profile=ci
