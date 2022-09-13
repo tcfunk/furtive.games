@@ -44,10 +44,10 @@ jobs:
       - run: ./vendor/bin/drush si --existing-config --yes
 
       - run:
-        name: "Run web server"
-        cmd: php bin/console server:run
-        background: true
+          name: "Run web server"
+          command: php bin/console server:run
+          background: true
 
       - run:
-        name: "Run behat tests"
-        cmd: ./vendor/bin/behat --profile=ci
+          name: "Run behat tests"
+          command: ./vendor/bin/behat --profile=ci
