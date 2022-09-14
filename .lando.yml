@@ -2,3 +2,17 @@ name: fg
 recipe: drupal10
 config:
   webroot: web
+
+services:
+  appserver:
+    extras:
+    - apt-get update -y
+    - apt-get install sqlite3
+
+tooling:
+  phpunit:
+    service: appserver
+    cmd: vendor/bin/phpunit
+  behat:
+    service: appserver
+    cmd: vendor/bin/behat
