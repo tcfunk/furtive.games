@@ -18,7 +18,11 @@
         "composer/installers": "^2.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
-        "drupal/core-recommended": "^9.4"
+        "drupal/core-recommended": "^9.4",
+        "drupal/gin": "^3.0@beta",
+        "drupal/gin_gutenberg": "^1.1",
+        "drupal/gin_toolbar": "^1.0@beta",
+        "drupal/gutenberg": "^2.5"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -93,6 +97,7 @@
         }
     },
     "require-dev": {
+        "acquia/drupal-spec-tool": "^5.0",
         "drupal/core-dev": "^9.4",
         "drupal/drupal-extension": "^4.2",
         "drush/drush": "^11.1"
