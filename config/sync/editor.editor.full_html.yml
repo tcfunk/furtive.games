@@ -18,7 +18,7 @@ settings:
       - alignment
       - bulletedList
       - numberedList
-      - uploadImage
+      - drupalInsertImage
       - link
   plugins:
     ckeditor5_heading:
