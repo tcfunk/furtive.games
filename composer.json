@@ -96,6 +96,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+            "drupal/gutenberg": {
+                "Don't show welcome popup to Vistors": "https://www.drupal.org/files/issues/2022-10-05/3310913-14.patch"
+            }
         }
     },
     "require-dev": {
