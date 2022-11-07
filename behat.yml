@@ -4,16 +4,18 @@ default:
       contexts:
         - FeatureContext
         - Drupal\DrupalExtension\Context\DrupalContext
-        - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
   extensions:
     Drupal\MinkExtension:
       goutte: ~
       selenium2: ~
-      base_url: http://qppcm.lndo.site
+      base_url: http://fg.lndo.site
     Drupal\DrupalExtension:
       blackbox: ~
+      api_driver: drupal
+      drupal:
+        drupal_root: ./web
       region_map:
         header: "#header"
 ci:

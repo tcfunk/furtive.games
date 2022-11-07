@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3be97e54cb73c34b667af55493d8e6ce",
+    "content-hash": "09e9e0ba4a36662a03b9153f9de35e2a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1093,11 +1093,17 @@
         },
         {
             "name": "drupal/gutenberg",
-            "version": "dev-2.x",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gutenberg.git",
-                "reference": "61362bf9cb4a09824fd23cabac4b3b05f033869a"
+                "reference": "8.x-2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gutenberg-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "e44241bd0aaf07216abd314da757fa2b0fa0b2ee"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -1106,15 +1112,12 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-2.5+4-dev",
-                    "datestamp": "1667244172",
+                    "version": "8.x-2.5",
+                    "datestamp": "1650411254",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -11265,8 +11268,7 @@
     "minimum-stability": "alpha",
     "stability-flags": {
         "drupal/gin": 10,
-        "drupal/gin_toolbar": 10,
-        "drupal/gutenberg": 20
+        "drupal/gin_toolbar": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
