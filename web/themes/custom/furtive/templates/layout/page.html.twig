@@ -1,0 +1,22 @@
+<div>
+
+  {{ page.header }}
+
+  {{ page.hero }}
+
+  {{ page.highlighted }}
+
+  {{ page.page_top }}
+
+  {{ page.content }}
+
+  {{ page.page_bottom }}
+
+  {% if page.footer_left or page.footer_right %}
+    <footer role="contentinfo">
+      {{ page.footer_left }}
+      {{ page.footer_right }}
+    </footer>
+  {% endif %}
+
+</div>

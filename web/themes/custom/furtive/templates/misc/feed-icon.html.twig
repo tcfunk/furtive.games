@@ -1,0 +1,40 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a feed icon.
+ *
+ * Available variables:
+ * - url: An internal system path or a fully qualified external URL of the feed.
+ * - title: Title of the feed for describing the feed on the subscribe link.
+ * - attributes: Remaining HTML attributes for the feed link.
+ *   - title: A descriptive title of the feed link.
+ *   - class: HTML classes to be applied to the feed link.
+ *
+ * @ingroup themeable
+ */
+#}
+{#<button class="px-5 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Get bundle</button>#}
+{% set button_classes = [
+  "px-5",
+  "py-4",
+  "rounded",
+  "border",
+  "border-stone-900",
+  "inline-block",
+  "transition",
+  "shadow-none",
+  "bg-lime-700",
+  "text-stone-50",
+  "shadow-stone-900",
+  "no-underline",
+  "underline-offset-4",
+  "hover:underline",
+  "hover:shadow-hard",
+  "hover:decoration-wavy",
+  "hover:-translate-y-0.5",
+  "hover:-translate-x-0.5",
+] %}
+
+<a href="{{ url }}"{{ attributes.addClass(button_classes) }}>
+  {{ 'Subscribe to @title'|t({'@title': title}) }}
+</a>

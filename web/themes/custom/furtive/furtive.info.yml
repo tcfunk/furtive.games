@@ -1,0 +1,18 @@
+name: Furtive
+type: theme
+base theme: stark
+description: 'Tailwind-based theme'
+core_version_requirement: ^9 || ^10
+
+libraries:
+  - furtive/global-styling
+
+regions:
+  header: 'Header'
+  hero: 'Hero'
+  highlighted: 'Highlighted'
+  page_top: 'Page top'
+  content: 'Content'
+  page_bottom: 'Page bottom'
+  footer_left: 'Footer left'
+  footer_right: 'Footer right'
