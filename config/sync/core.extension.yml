@@ -6,6 +6,7 @@ module:
   breakpoint: 0
   ckeditor5: 0
   contextual: 0
+  crop: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
@@ -13,16 +14,19 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  focal_point: 0
   gin_gutenberg: 0
   gin_toolbar: 0
   gutenberg: 0
   image: 0
+  media: 0
   mysql: 0
   node: 0
   page_cache: 0
   path_alias: 0
   quickedit: 0
   system: 0
+  taxonomy: 0
   text: 0
   toolbar: 0
   update: 0

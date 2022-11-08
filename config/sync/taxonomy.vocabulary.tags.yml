@@ -1,0 +1,8 @@
+uuid: 4dae45aa-b99b-4c09-aff2-950ef2d73c27
+langcode: en
+status: true
+dependencies: {  }
+name: Tags
+vid: tags
+description: 'Descriptive metadata, for categorizing content and making search engines happy.'
+weight: 0
