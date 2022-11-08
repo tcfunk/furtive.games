@@ -6,6 +6,8 @@ default:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\DrushContext
+        - Acquia\DrupalSpecTool\Context\ContentModelContext
+        - Acquia\DrupalSpecTool\Context\MediaContext
   extensions:
     Drupal\MinkExtension:
       goutte: ~

@@ -8,6 +8,7 @@ dependencies:
   module:
     - filter
     - gutenberg
+    - media
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -20,3 +21,4 @@ permissions:
   - 'use gutenberg'
   - 'use text format full_html'
   - 'use text format gutenberg'
+  - 'view media'

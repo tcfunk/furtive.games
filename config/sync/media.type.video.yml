@@ -1,0 +1,17 @@
+uuid: 0085f4a5-f12b-4f48-970e-b48e1b3ba987
+langcode: en
+status: true
+dependencies: {  }
+id: video
+label: Video
+description: 'Remotely hosted videos from external sources, e.g. YouTube, Vimeo.'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_oembed_video
+  thumbnails_directory: 'public://oembed_thumbnails/[date:custom:Y-m]'
+  providers:
+    - YouTube
+    - Vimeo
+field_map: {  }
