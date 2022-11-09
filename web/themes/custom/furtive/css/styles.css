@@ -1260,13 +1260,69 @@ html {
   --tw-prose-invert-td-borders: #44403c;
 }
 
+.visible{
+  visibility: visible;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
+.ml-8{
+  margin-left: 2rem;
+}
+
+.block{
+  display: block;
+}
+
 .inline-block{
   display: inline-block;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-8{
+  height: 2rem;
+}
+
+.h-12{
+  height: 3rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
+.w-8{
+  width: 2rem;
+}
+
+.w-12{
+  width: 3rem;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.w-14{
+  width: 3.5rem;
 }
 
 .max-w-5xl{
@@ -1275,6 +1331,34 @@ html {
 
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .rounded-xl{
@@ -1287,6 +1371,10 @@ html {
 
 .border{
   border-width: 1px;
+}
+
+.border-b-2{
+  border-bottom-width: 2px;
 }
 
 .border-stone-900{
@@ -1309,9 +1397,13 @@ html {
   background-color: rgb(77 124 15 / var(--tw-bg-opacity));
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .py-4{
@@ -1319,8 +1411,31 @@ html {
   padding-bottom: 1rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .text-center{
   text-align: center;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-base{
@@ -1337,11 +1452,6 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-stone-100{
-  --tw-text-opacity: 1;
-  color: rgb(245 245 244 / var(--tw-text-opacity));
-}
-
 .text-stone-50{
   --tw-text-opacity: 1;
   color: rgb(250 250 249 / var(--tw-text-opacity));
@@ -1349,14 +1459,6 @@ html {
 
 .no-underline{
   text-decoration-line: none;
-}
-
-.decoration-double{
-  text-decoration-style: double;
-}
-
-.decoration-wavy{
-  text-decoration-style: wavy;
 }
 
 .underline-offset-4{
