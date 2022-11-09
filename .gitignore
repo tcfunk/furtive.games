@@ -26,6 +26,9 @@
 /web/modules/contrib
 /web/themes/contrib
 
+# Ignore node_modules
+/web/**/node_modules
+
 # Ignore drupal core (if not versioning drupal sources)
 /web/vendor
 /web/core
@@ -65,3 +68,6 @@
 /drush
 /drupal.phar
 /drupal
+
+# Ignore vim temp files
+**/*~
