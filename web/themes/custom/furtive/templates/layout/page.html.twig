@@ -13,10 +13,12 @@
   {{ page.page_bottom }}
 
   {% if page.footer_left or page.footer_right %}
-    <footer role="contentinfo">
-      {{ page.footer_left }}
-      {{ page.footer_right }}
-    </footer>
+    <div class="border-t-2 px-4 border-stone-900 bg-white h-32">
+      <footer role="contentinfo" class="container mx-auto h-full grid grid-cols-2 gap-0">
+        {{ page.footer_left }}
+        {{ page.footer_right }}
+      </footer>
+    </div>
   {% endif %}
 
 </div>
