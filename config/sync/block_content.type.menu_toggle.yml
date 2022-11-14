@@ -1,0 +1,8 @@
+uuid: 89021275-57fd-4b97-895d-23dbd1961bca
+langcode: en
+status: true
+dependencies: {  }
+id: menu_toggle
+label: 'Menu Toggle'
+revision: 0
+description: 'Shows a hamburger-style menu toggle icon'

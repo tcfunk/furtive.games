@@ -1,0 +1,23 @@
+uuid: efa6053b-d22f-4c41-a3f3-c060ac295088
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - furtive
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: furtive_syndicate
+theme: furtive
+region: content
+weight: -5
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -3,7 +3,6 @@ basic_page_template: ''
 basic_page_template_lock: none
 basic_page_allowed_blocks:
   core/paragraph: core/paragraph
-  core/image: core/image
   core/heading: core/heading
   core/gallery: core/gallery
   core/list: core/list
@@ -16,7 +15,6 @@ basic_page_allowed_blocks:
   core/column: core/column
   core/cover: core/cover
   core/embed: core/embed
-  core/file: core/file
   core/freeform: core/freeform
   core/html: core/html
   core/media-text: core/media-text
@@ -31,6 +29,8 @@ basic_page_allowed_blocks:
   core/verse: core/verse
   core/video: core/video
   core/all: 0
+  core/image: 0
+  core/file: 0
   core-embed/twitter: core-embed/twitter
   core-embed/youtube: core-embed/youtube
   core-embed/facebook: core-embed/facebook

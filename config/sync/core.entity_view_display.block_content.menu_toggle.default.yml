@@ -1,0 +1,22 @@
+uuid: 7af1d3de-ecf8-4604-8f66-497989462f7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.menu_toggle
+    - field.field.block_content.menu_toggle.body
+  module:
+    - text
+id: block_content.menu_toggle.default
+targetEntityType: block_content
+bundle: menu_toggle
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

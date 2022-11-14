@@ -1,0 +1,25 @@
+uuid: 51064243-d4c9-4ff1-a00a-13178e8bacc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - furtive
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: furtive_site_branding
+theme: furtive
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

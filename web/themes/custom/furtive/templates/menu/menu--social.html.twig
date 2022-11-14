@@ -32,12 +32,12 @@ We call a macro which calls itself to render the full tree.
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-<ul{{ attributes.addClass(['flex', 'flex-row', 'flex-nowrap', 'h-full', 'justify-end', 'items-center']) }}>
+<ul{{ attributes.addClass(['flex', 'flex-row', 'flex-nowrap', 'h-full', 'justify-center', 'md:justify-end', 'items-center']) }}>
   {% else %}
   <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes.addClass('ml-8') }}>
+      <li{{ item.attributes.addClass('mx-4 md:ml-8 md:mr-0') }}>
         <a href="{{ item.url }}" title="{{ item.title }}" target="_blank" class="text-lg hover:underline">
           {% set social_icon = item.title|trim|lower %}
           {% set icon_path = "/themes/custom/furtive/icons/" ~ social_icon ~ ".svg" %}

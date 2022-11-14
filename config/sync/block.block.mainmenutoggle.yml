@@ -1,0 +1,25 @@
+uuid: 5d4f80a8-8ba1-4bb5-9c30-c977f85cc4c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_toggle:f06c9ddc-6509-4baf-b5fd-e94684d9b7b5'
+  module:
+    - block_content
+  theme:
+    - furtive
+id: mainmenutoggle
+theme: furtive
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:f06c9ddc-6509-4baf-b5fd-e94684d9b7b5'
+settings:
+  id: 'block_content:f06c9ddc-6509-4baf-b5fd-e94684d9b7b5'
+  label: 'Main menu toggle'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

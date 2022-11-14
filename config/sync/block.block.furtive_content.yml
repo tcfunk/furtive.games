@@ -1,0 +1,22 @@
+uuid: d89c5d97-8769-4b9f-96c3-7678cd23553c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - furtive
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: furtive_content
+theme: furtive
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

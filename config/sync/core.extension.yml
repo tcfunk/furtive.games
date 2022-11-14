@@ -19,7 +19,10 @@ module:
   gin_toolbar: 0
   gutenberg: 0
   image: 0
+  link: 0
   media: 0
+  menu_link_content: 0
+  menu_ui: 0
   mysql: 0
   node: 0
   page_cache: 0
@@ -38,4 +41,5 @@ theme:
   claro: 0
   olivero: 0
   gin: 0
+  furtive: 0
 profile: minimal

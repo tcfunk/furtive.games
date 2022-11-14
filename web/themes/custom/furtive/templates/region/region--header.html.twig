@@ -15,8 +15,8 @@
  */
 #}
 {% if content %}
-  <div{{ attributes.addClass(['border-b-2', 'px-4', 'border-stone-900', 'bg-white']) }}>
-    <header class="container mx-auto grid grid-cols-3 gap-4">
+  <div{{ attributes.addClass(['border-b-2', 'px-4', 'border-stone-900', 'bg-white']) }} x-data="{open: false}">
+    <header class="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 md:pb-0" :class="open ? 'pb-4' : 'pb-0'">
       {{ content }}
     </header>
   </div>

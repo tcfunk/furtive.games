@@ -1,0 +1,20 @@
+uuid: 7e2cdf1b-dc16-4ee4-ba72-aeb3725382cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - furtive
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: furtive_primary_admin_actions
+theme: furtive
+region: highlighted
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

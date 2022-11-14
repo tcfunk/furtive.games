@@ -1,0 +1,8 @@
+uuid: e29c2586-c4e1-4747-9d1d-2f33511ae179
+langcode: en
+status: true
+dependencies: {  }
+id: social
+label: Social
+description: 'Social links for the header'
+locked: false

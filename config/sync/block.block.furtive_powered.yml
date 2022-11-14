@@ -1,0 +1,22 @@
+uuid: b9a0aa9d-af93-488a-bfa8-b234d1dfc386
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - furtive
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: furtive_powered
+theme: furtive
+region: footer_right
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

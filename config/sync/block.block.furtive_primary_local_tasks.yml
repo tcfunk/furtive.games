@@ -1,0 +1,22 @@
+uuid: 452d430a-0369-45d7-9cca-fba6414f2b77
+langcode: en
+status: true
+dependencies:
+  theme:
+    - furtive
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: furtive_primary_local_tasks
+theme: furtive
+region: highlighted
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
